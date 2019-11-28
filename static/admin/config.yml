@@ -1,5 +1,5 @@
 backend:
-  name: git-gateway
+  name: github
   repo: Nilesh5995/nilesh5995.github.io
   branch: live
   show_preview_links: true
