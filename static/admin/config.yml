@@ -2,6 +2,7 @@ backend:
   name: github
   repo: nilesh5995/nilesh5995.github.io
   branch: live
+  app_id: e6ed649cd58de807cbd8
   show_preview_links: true
   commit_messages:
     create: 'Create {{collection}} “{{slug}}”'
