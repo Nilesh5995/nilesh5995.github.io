@@ -2,14 +2,7 @@ backend:
   name: github
   repo: nilesh5995/nilesh5995.github.io
   branch: live
-  show_preview_links: true
-  commit_messages:
-    create: 'Create {{collection}} “{{slug}}”'
-    update: 'Update {{collection}} “{{slug}}”'
-    delete: 'Delete {{collection}} “{{slug}}”'
-    uploadMedia: '[skip ci] Upload “{{path}}”'
-    deleteMedia: '[skip ci] Delete “{{path}}”'
-
+  
 media_folder: static/img
 
 collections:
