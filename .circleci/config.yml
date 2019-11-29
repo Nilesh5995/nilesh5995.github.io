@@ -5,7 +5,6 @@ jobs:
       branches:
         only:
           - live
-        ignore: /.*/
     docker:
       - image: circleci/node:10
     working_directory: ~/gatsby-site
