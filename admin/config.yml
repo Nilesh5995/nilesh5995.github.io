@@ -3,7 +3,6 @@ backend:
   repo: nilesh5995/nilesh5995.github.io
   branch: live
   site_domain: awesome-bhabha-91d705.netlify.com
-  app_id: e6ed649cd58de807cbd8
   show_preview_links: true
   commit_messages:
     create: 'Create {{collection}} “{{slug}}”'
