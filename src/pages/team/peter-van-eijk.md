@@ -7,6 +7,6 @@ image: /src/pages/team/untitled-diagram.jpg
 jobtitle: The orphan house
 linkedinurl: www.linkedin.com/pvanijk
 weight: 20
-'': jjjjj
+
 ---
 
