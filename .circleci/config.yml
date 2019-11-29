@@ -1,10 +1,9 @@
 version: 2
 jobs:
   build:
-    filters:
-      branches:
-        only:
-          - live
+    branches:
+      only:
+        - live
     docker:
       - image: circleci/node:10
     working_directory: ~/gatsby-site
