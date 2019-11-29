@@ -11,7 +11,7 @@ backend:
     uploadMedia: '[skip ci] Upload “{{path}}”'
     deleteMedia: '[skip ci] Delete “{{path}}”'
 
-media_folder: static/img
+media_folder: src/pages/team/
 
 collections:
 
@@ -34,4 +34,4 @@ collections:
           - {label: "jobtitle", name: "jobtitle", widget: "string"}
           - {label: "Linkedin", name: "linkedinurl", widget: "string"}
           - {label: "weight", name: "weight", widget: "number"}
-          - {label: "html", name: "html", widget: "markdown"}
+          - {label: "html", name: "", widget: "markdown"}
