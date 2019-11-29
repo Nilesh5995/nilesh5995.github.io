@@ -1,6 +1,6 @@
 ---
 path: /team/peter-van-eijk
-title: KKK
+title: KKK Kumar
 date: 2018-11-19T00:47:58.000Z
 draft: false
 image: /team/peter-van-eijk-711986-unsplash.jpg
