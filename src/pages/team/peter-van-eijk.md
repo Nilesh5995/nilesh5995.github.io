@@ -1,12 +1,12 @@
 ---
 path: /team/peter-van-eijk
-title: KKK
+title: RISE
 date: 2018-11-19T00:47:58.000Z
 draft: false
-image: /team/peter-van-eijk-711986-unsplash.jpg
-jobtitle: Director
+image: /static/img/untitled-diagram.jpg
+jobtitle: The orphan house
 linkedinurl: www.linkedin.com/pvanijk
-weight: 1
+weight: 20
 html: >-
   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
   incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
