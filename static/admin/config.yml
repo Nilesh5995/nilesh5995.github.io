@@ -34,4 +34,4 @@ collections:
           - {label: "jobtitle", name: "jobtitle", widget: "string"}
           - {label: "Linkedin", name: "linkedinurl", widget: "string"}
           - {label: "weight", name: "weight", widget: "number"}
-          - {label: "html", name: "", widget: "markdown"}
+          - {label: "html", name: "html", widget: "markdown"}
