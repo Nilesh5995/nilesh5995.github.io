@@ -36,6 +36,7 @@ collections:
           - {label: "jobtitle", name: "jobtitle", widget: "string"}
           - {label: "Linkedin", name: "linkedinurl", widget: "string"}
           - {label: "weight", name: "weight", widget: "number"}
+          - {label: "Email", name: "email", widget: "string"}
           - {label: "body", name: "body", widget: "markdown"}
       - file: "src/pages/team/peter-van-eijk.md"
         label: "Team  Member 2"
@@ -50,4 +51,5 @@ collections:
           - {label: "jobtitle", name: "jobtitle", widget: "string"}
           - {label: "Linkedin", name: "linkedinurl", widget: "string"}
           - {label: "weight", name: "weight", widget: "number"}
-          - {label: "html", name: "html", widget: "markdown"}
+          - {label: "Email", name: "email", widget: "string"}
+          - {label: "body", name: "body", widget: "markdown"}
