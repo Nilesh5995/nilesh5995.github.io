@@ -182,4 +182,10 @@ collections:
           - {label: "Image", name: "image", widget: image, required: false}
           - {label: "featured", name: "featured", widget: "boolean"}
           - {label: "Draft", name: "draft", widget: "boolean"}
+<<<<<<< HEAD
           - {label: "body", name: "body", widget: "markdown"}
+=======
+          - {label: "body", name: "body", widget: "markdown"}
+
+        
+>>>>>>> f7ae6ba375c2b9e9f411be1f35e1e3c2e0fc6026
