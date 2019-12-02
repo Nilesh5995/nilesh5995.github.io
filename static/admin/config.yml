@@ -11,18 +11,18 @@ backend:
     uploadMedia: '[skip ci] Upload “{{path}}”'
     deleteMedia: '[skip ci] Delete “{{path}}”'
 
-media_folder: src/pages/team/
+media_folder: static/img/
 
 collections:
 
-  - name: "Pages"
-    label: "pages"
+  - name: "Teams"
+    label: "Teams"
     create: true
     publish_mode: editorial_workflow
     widget: list
     files:
       - file: "src/pages/team/peter-van-eijk.md"
-        label: "Team  Page"
+        label: "Team  Member 1"
         name: "Team"
         fields:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "index.js"}
@@ -30,7 +30,21 @@ collections:
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Date", name: "date", widget: "datetime"}
           - {label: "Draft", name: "draft", widget: "boolean"}
-          - {label: "Image", name: "image", widget: image}
+          - {label: "Image", name: "image", widget: image, required: false}
+          - {label: "jobtitle", name: "jobtitle", widget: "string"}
+          - {label: "Linkedin", name: "linkedinurl", widget: "string"}
+          - {label: "weight", name: "weight", widget: "number"}
+          - {label: "html", name: "html", widget: "markdown"}
+      - file: "src/pages/team/peter-van-eijk.md"
+        label: "Team  Member 2"
+        name: "Team"
+        fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "index.js"}
+          - {label: "Path", name: "path", widget: "string"}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Date", name: "date", widget: "datetime"}
+          - {label: "Draft", name: "draft", widget: "boolean"}
+          - {label: "Image", name: "image", widget: image, required: false}
           - {label: "jobtitle", name: "jobtitle", widget: "string"}
           - {label: "Linkedin", name: "linkedinurl", widget: "string"}
           - {label: "weight", name: "weight", widget: "number"}
