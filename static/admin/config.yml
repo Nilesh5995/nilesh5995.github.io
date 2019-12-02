@@ -11,7 +11,8 @@ backend:
     uploadMedia: '[skip ci] Upload “{{path}}”'
     deleteMedia: '[skip ci] Delete “{{path}}”'
 
-media_folder: upload_images
+media_folder: "static/uploads"
+public_folder: "uploads"
 
 collections:
 
