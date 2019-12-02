@@ -7,9 +7,5 @@ image: /uploads/screenshot-localhost_9000-2019.11.png
 jobtitle: Director
 linkedinurl: www.linkedin.com/pvanijk
 weight: 3
-html: >-
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-  incididunt ut labore et dolore magna aliqua. Bibendum arcu vitae elementum
-  curabitur vitae nunc sed. Tortor at risus viverra adipiscing at in.
 ---
-
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum arcu vitae elementum curabitur vitae nunc sed. Tortor at risus viverra adipiscing at in.
