@@ -183,5 +183,3 @@ collections:
           - {label: "featured", name: "featured", widget: "boolean"}
           - {label: "Draft", name: "draft", widget: "boolean"}
           - {label: "body", name: "body", widget: "markdown"}
-
-        
