@@ -3,7 +3,7 @@ path: /team/peter-van-eijk
 title: ABCD NI
 date: 2018-11-20T00:47:58.000Z
 draft: 'false'
-image: /upload_images/untitled-diagram.jpg
+image: /uploads/screenshot-localhost_9000-2019.11.png
 jobtitle: Director
 linkedinurl: www.linkedin.com/pvanijk
 weight: 3
