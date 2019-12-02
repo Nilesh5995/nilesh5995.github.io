@@ -1,9 +1,9 @@
 ---
 path: /team/peter-van-eijk
-title: fjhbfbhvh
+title: ABCD NI
 date: 2018-11-20T00:47:58.000Z
 draft: 'false'
-image: /static/img/leaderboard-icon-13757.png
+image: '/https:/nilesh5995.github.io/img/untitled-diagram.jpg'
 jobtitle: Director
 linkedinurl: www.linkedin.com/pvanijk
 weight: 3
