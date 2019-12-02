@@ -5,6 +5,7 @@ backend:
   site_domain: awesome-bhabha-91d705.netlify.com
   show_preview_links: true
   dash: "---"
+  display_url: https://nilesh5995.github.io/
   commit_messages:
     create: 'Create {{collection}} “{{slug}}”'
     update: 'Update {{collection}} “{{slug}}”'
@@ -24,7 +25,7 @@ collections:
     widget: list
     files:
       - file: "src/pages/team/peter-van-eijk.md"
-        label: "Team  Member 1"
+        label: "Team  Member - peter-van-eijk"
         name: "Team"
         fields:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "index.js"}
@@ -38,8 +39,8 @@ collections:
           - {label: "weight", name: "weight", widget: "number"}
           - {label: "Email", name: "email", widget: "string"}
           - {label: "body", name: "body", widget: "markdown"}
-      - file: "src/pages/team/peter-van-eijk.md"
-        label: "Team  Member 2"
+      - file: "src/pages/team/sage-kirk.md"
+        label: "Team  Member - sage-kirk"
         name: "Team"
         fields:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "index.js"}
@@ -53,3 +54,134 @@ collections:
           - {label: "weight", name: "weight", widget: "number"}
           - {label: "Email", name: "email", widget: "string"}
           - {label: "body", name: "body", widget: "markdown"}
+  - name: "Testimonials"
+    label: "Testimonials"
+    create: true
+    publish_mode: editorial_workflow
+    widget: list
+    files:
+      - file: "src/pages/testimonials/lion-creative.md"
+        label: "lion-creative"
+        name: "lion-creative"
+        fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "index.js"}
+          - {label: "Path", name: "path", widget: "string"}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Date", name: "date", widget: "datetime"}
+          - {label: "Draft", name: "draft", widget: "boolean"}
+          - {label: "Image", name: "image", widget: image, required: false}
+          - {label: "businessurl", name: "businessurl", widget: "string"}
+          - {label: "name", name: "name", widget: "string"}
+          - {label: "business", name: "business", business: "number"}
+          - {label: "jobtitle", name: "jobtitle", business: "number"}
+          - {label: "body", name: "body", widget: "markdown"}
+      - file: "src/pages/testimonials/mikes-auto-parts.md"
+        label: "mikes-auto-parts"
+        name: "mikes-auto-parts"
+        fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "index.js"}
+          - {label: "Path", name: "path", widget: "string"}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Date", name: "date", widget: "datetime"}
+          - {label: "Draft", name: "draft", widget: "boolean"}
+          - {label: "Image", name: "image", widget: image, required: false}
+          - {label: "businessurl", name: "businessurl", widget: "string"}
+          - {label: "name", name: "name", widget: "string"}
+          - {label: "business", name: "business", business: "number"}
+          - {label: "jobtitle", name: "jobtitle", business: "number"}
+          - {label: "body", name: "body", widget: "markdown"}
+      - file: "src/pages/testimonials/thaistyle-asian.md"
+        label: "thaistyle-asian"
+        name: "thaistyle-asian"
+        fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "index.js"}
+          - {label: "Path", name: "path", widget: "string"}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Date", name: "date", widget: "datetime"}
+          - {label: "Draft", name: "draft", widget: "boolean"}
+          - {label: "Image", name: "image", widget: image, required: false}
+          - {label: "businessurl", name: "businessurl", widget: "string"}
+          - {label: "name", name: "name", widget: "string"}
+          - {label: "business", name: "business", business: "number"}
+          - {label: "jobtitle", name: "jobtitle", business: "number"}
+          - {label: "body", name: "body", widget: "markdown"}
+  - name: "Services"
+    label: "Services"
+    create: true
+    publish_mode: editorial_workflow
+    widget: list
+    files:
+      - file: "src/pages/services/mergers.md"
+        label: "Mergers"
+        name: "Mergers"
+        fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "index.js"}
+          - {label: "Path", name: "path", widget: "string"}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Date", name: "date", widget: "datetime"}
+          - {label: "Image", name: "image", widget: image, required: false}
+          - {label: "featured", name: "featured", widget: "boolean"}
+          - {label: "Draft", name: "draft", widget: "boolean"}
+          - {label: "body", name: "body", widget: "markdown"}
+      - file: "src/pages/services/business-sales.md"
+        label: "Business-Sales"
+        name: "Business-Sales"
+        fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "index.js"}
+          - {label: "Path", name: "path", widget: "string"}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Date", name: "date", widget: "datetime"}
+          - {label: "Image", name: "image", widget: image, required: false}
+          - {label: "featured", name: "featured", widget: "boolean"}
+          - {label: "Draft", name: "draft", widget: "boolean"}
+          - {label: "body", name: "body", widget: "markdown"}
+      - file: "src/pages/services/superannuation.md"
+        label: "Superannuation"
+        name: "Superannuation"
+        fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "index.js"}
+          - {label: "Path", name: "path", widget: "string"}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Date", name: "date", widget: "datetime"}
+          - {label: "Image", name: "image", widget: image, required: false}
+          - {label: "featured", name: "featured", widget: "boolean"}
+          - {label: "Draft", name: "draft", widget: "boolean"}
+          - {label: "body", name: "body", widget: "markdown"}
+      - file: "src/pages/services/business-advisory.md"
+        label: "Business-Advisory"
+        name: "Business-Advisory"
+        fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "index.js"}
+          - {label: "Path", name: "path", widget: "string"}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Date", name: "date", widget: "datetime"}
+          - {label: "Image", name: "image", widget: image, required: false}
+          - {label: "featured", name: "featured", widget: "boolean"}
+          - {label: "Draft", name: "draft", widget: "boolean"}
+          - {label: "body", name: "body", widget: "markdown"}
+      - file: "src/pages/services/accounting.md"
+        label: "Accounting"
+        name: "Accounting"
+        fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "index.js"}
+          - {label: "Path", name: "path", widget: "string"}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Date", name: "date", widget: "datetime"}
+          - {label: "Image", name: "image", widget: image, required: false}
+          - {label: "featured", name: "featured", widget: "boolean"}
+          - {label: "Draft", name: "draft", widget: "boolean"}
+          - {label: "body", name: "body", widget: "markdown"}
+      - file: "src/pages/services/tax-preperation.md"
+        label: "Tax Preperation"
+        name: "Tax Preperation"
+        fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "index.js"}
+          - {label: "Path", name: "path", widget: "string"}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Date", name: "date", widget: "datetime"}
+          - {label: "Image", name: "image", widget: image, required: false}
+          - {label: "featured", name: "featured", widget: "boolean"}
+          - {label: "Draft", name: "draft", widget: "boolean"}
+          - {label: "body", name: "body", widget: "markdown"}
+
+        
