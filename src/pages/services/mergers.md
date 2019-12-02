@@ -1,8 +1,8 @@
 ---
-path: '/services/mergers'
-title: 'Mergers'
-date: 2018-11-28T15:15:34+10:00
-image: '/services/default.png'
+path: /services/mergers
+title: Mergers
+date: 2018-11-28T05:15:34.000Z
+image: /uploads/noun_1098396.png
 featured: true
 draft: false
 ---
